@@ -1775,7 +1775,7 @@ i {
         flex-wrap: wrap;
     }
     .links-main .footer-list {
-        padding: 0 0 15px;
+        padding: 0 15px 15px;
         width: 50%;
     }
     .news-letter .form-group input[type="email"] {
@@ -1987,7 +1987,7 @@ i {
     }
     /* footer */
     .links-main .footer-list {
-        padding: 0 15px;
+        padding: 0 0 15px;
         width: 100%;
     }
     .ttm-newstter-box {

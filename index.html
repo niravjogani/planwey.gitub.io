@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planwey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navigation-bar">
+                        <div class="navbar-header">
+                            <button class="navbar-toggler" data-toggle="open-navbar1">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <a href="#">
+                                <img src="./assets/image/logo-img.png" alt="logo">
+                            </a>
+                            <div class="ttm-header-mobile">
+                                <div class="ttm-header-icons">
+                                    <div class="ttm-header-icon ttm-header-search-link">
+                                        <a href="#" class="open sclose"><svg version="1.1" id="Capa_1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 487.95 487.95"
+                                                style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                                                <g>
+                                                    <g>
+                                                        <path
+                                                            d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1
+                                                    c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4
+                                                    c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                        <div class="ttm-search-overlay">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <form method="get" class="ttm-site-searchform" action="#">
+                                                        <div class="w-search-form-h">
+                                                            <div class="w-search-form-row">
+                                                                <div class="w-search-input">
+                                                                    <input type="search" class="field searchform-s"
+                                                                        name="s" placeholder="Type Word Then Enter...">
+                                                                    <button type="submit"><svg version="1.1" id="Capa_1"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                            x="0px" y="0px" viewBox="0 0 487.95 487.95"
+                                                                            style="enable-background:new 0 0 487.95 487.95;"
+                                                                            xml:space="preserve">
+                                                                            <g>
+                                                                                <g>
+                                                                                    <path
+                                                                                        d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1 c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4 c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z" />
+                                                                                </g>
+                                                                            </g>
+                                                                        </svg></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <div class="ttm-search-close"><svg version="1.1" id="Layer_1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="122.878px" height="122.88px"
+                                                            viewBox="0 0 122.878 122.88"
+                                                            enable-background="new 0 0 122.878 122.88"
+                                                            xml:space="preserve">
+                                                            <g>
+                                                                <path
+                                                                    d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z" />
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-icon">
+                                        <span class="ttm-header-icon ttm-header-cart-link">
+                                            <a href=""><svg version="1.1" id="Layer_1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    viewBox="0 0 122.9 107.5"
+                                                    style="enable-background:new 0 0 122.9 107.5" xml:space="preserve">
+                                                    <g>
+                                                        <path
+                                                            d="M3.9,7.9C1.8,7.9,0,6.1,0,3.9C0,1.8,1.8,0,3.9,0h10.2c0.1,0,0.3,0,0.4,0c3.6,0.1,6.8,0.8,9.5,2.5c3,1.9,5.2,4.8,6.4,9.1 c0,0.1,0,0.2,0.1,0.3l1,4H119c2.2,0,3.9,1.8,3.9,3.9c0,0.4-0.1,0.8-0.2,1.2l-10.2,41.1c-0.4,1.8-2,3-3.8,3v0H44.7 c1.4,5.2,2.8,8,4.7,9.3c2.3,1.5,6.3,1.6,13,1.5h0.1v0h45.2c2.2,0,3.9,1.8,3.9,3.9c0,2.2-1.8,3.9-3.9,3.9H62.5v0 c-8.3,0.1-13.4-0.1-17.5-2.8c-4.2-2.8-6.4-7.6-8.6-16.3l0,0L23,13.9c0-0.1,0-0.1-0.1-0.2c-0.6-2.2-1.6-3.7-3-4.5 c-1.4-0.9-3.3-1.3-5.5-1.3c-0.1,0-0.2,0-0.3,0H3.9L3.9,7.9z M96,88.3c5.3,0,9.6,4.3,9.6,9.6c0,5.3-4.3,9.6-9.6,9.6 c-5.3,0-9.6-4.3-9.6-9.6C86.4,92.6,90.7,88.3,96,88.3L96,88.3z M53.9,88.3c5.3,0,9.6,4.3,9.6,9.6c0,5.3-4.3,9.6-9.6,9.6 c-5.3,0-9.6-4.3-9.6-9.6C44.3,92.6,48.6,88.3,53.9,88.3L53.9,88.3z M33.7,23.7l8.9,33.5h63.1l8.3-33.5H33.7L33.7,23.7z" />
+                                                    </g>
+                                                </svg>
+                                                <span class="number-cart">0</span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="navbar-menu" id="open-navbar1">
+                                <ul class="navbar-nav">
+                                    <li class="navbar-dropdown active">
+                                        <a href="#" class="dropdown-toggler nav-item" data-dropdown="home">Home <svg
+                                                version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;"
+                                                xml:space="preserve">
+                                                <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                              c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                              s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                            </svg>
+                                        </a>
+                                        <ul class="dropdown" id="home">
+                                            <li><a href="#">Homepage 1</a></li>
+                                            <li><a href="#">Homepage 2</a></li>
+                                            <li><a href="#">Homepage 3</a></li>
+                                            <li><a href="#">Homepage 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-dropdown">
+                                        <a href="#" class="dropdown-toggler nav-item" data-dropdown="my-dropdown-id">
+                                            Pages <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;"
+                                                xml:space="preserve">
+                                                <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                              c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                              s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                            </svg>
+                                        </a>
+                                        <ul class="dropdown" id="my-dropdown-id">
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="services-1.html">Service</a></li>
+                                            <li><a href="services-2.html">Service details</a></li>
+                                            <li><a href="our-event.html">Our Events</a></li>
+                                            <li><a href="our-team.html">Our Team</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="error.html">Error Page</a></li>
+                                            <li><a href="faq.html">FAQs</a></li>
+                                            <li><a href="element.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-dropdown">
+                                        <a href="#" class="dropdown-toggler nav-item"
+                                            data-dropdown="Portfolio">Portfolio
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;"
+                                                xml:space="preserve">
+                                                <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                         c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                         s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                            </svg>
+                                        </a>
+                                        <ul class="dropdown" id="Portfolio">
+                                            <li class=""><a href="portfolio-classic.html">Portfolio Classic</a></li>
+                                            <li><a href="portfolio-overlay.html">Portfolio Overlay</a></li>
+                                            <li class="has-submenu"><a href="#">Portfolio Details</a>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-dropdown">
+                                        <a href="#" class="dropdown-toggler nav-item" data-dropdown="blog">Blog <svg
+                                                version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;"
+                                                xml:space="preserve">
+                                                <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                         c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                         s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                            </svg>
+                                        </a>
+                                        <ul class="dropdown" id="blog">
+                                            <li class=""><a href="blog.html">Blog Classic</a></li>
+                                            <li class=""><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li class=""><a href="single-blog.html">Single Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-dropdown"><a href="#" class="nav-item">Contact</a></li>
+                                    <li class="navbar-dropdown">
+                                        <a href="#" class="dropdown-toggler nav-item" data-dropdown="Shop">Shop <svg
+                                                version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;"
+                                                xml:space="preserve">
+                                                <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                         c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                         s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                            </svg>
+                                        </a>
+                                        <ul class="dropdown" id="Shop">
+                                            <li><a href="home-shop.html">Home Shop</a></li>
+                                            <li><a href="shop.html">Default Shop</a></li>
+                                            <li class=""><a href="product-details.html">Single Product Details</a></li>
+                                            <li class=""><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ttm-headeer-destop">
+                                <div class="ttm-header-icons">
+                                    <div class="ttm-header-icon ttm-header-search-link">
+                                        <a href="#" class="open sclose"><svg version="1.1" id="Capa_1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 487.95 487.95"
+                                                style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                                                <g>
+                                                    <g>
+                                                        <path
+                                                            d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1
+                                                c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4
+                                                c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                        <div class="ttm-search-overlay">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <form method="get" class="ttm-site-searchform" action="#">
+                                                        <div class="w-search-form-h">
+                                                            <div class="w-search-form-row">
+                                                                <div class="w-search-input">
+                                                                    <input type="search" class="field searchform-s"
+                                                                        name="s" placeholder="Type Word Then Enter...">
+                                                                    <button type="submit"><svg version="1.1" id="Capa_1"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                            x="0px" y="0px" viewBox="0 0 487.95 487.95"
+                                                                            style="enable-background:new 0 0 487.95 487.95;"
+                                                                            xml:space="preserve">
+                                                                            <g>
+                                                                                <g>
+                                                                                    <path
+                                                                                        d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1 c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4 c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z" />
+                                                                                </g>
+                                                                            </g>
+                                                                        </svg></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <div class="ttm-search-close"><svg version="1.1" id="Layer_1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="122.878px" height="122.88px"
+                                                            viewBox="0 0 122.878 122.88"
+                                                            enable-background="new 0 0 122.878 122.88"
+                                                            xml:space="preserve">
+                                                            <g>
+                                                                <path
+                                                                    d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z" />
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-icon">
+                                        <span class="ttm-header-icon ttm-header-cart-link">
+                                            <a href=""><svg version="1.1" id="Layer_1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    viewBox="0 0 122.9 107.5"
+                                                    style="enable-background:new 0 0 122.9 107.5" xml:space="preserve">
+                                                    <g>
+                                                        <path
+                                                            d="M3.9,7.9C1.8,7.9,0,6.1,0,3.9C0,1.8,1.8,0,3.9,0h10.2c0.1,0,0.3,0,0.4,0c3.6,0.1,6.8,0.8,9.5,2.5c3,1.9,5.2,4.8,6.4,9.1 c0,0.1,0,0.2,0.1,0.3l1,4H119c2.2,0,3.9,1.8,3.9,3.9c0,0.4-0.1,0.8-0.2,1.2l-10.2,41.1c-0.4,1.8-2,3-3.8,3v0H44.7 c1.4,5.2,2.8,8,4.7,9.3c2.3,1.5,6.3,1.6,13,1.5h0.1v0h45.2c2.2,0,3.9,1.8,3.9,3.9c0,2.2-1.8,3.9-3.9,3.9H62.5v0 c-8.3,0.1-13.4-0.1-17.5-2.8c-4.2-2.8-6.4-7.6-8.6-16.3l0,0L23,13.9c0-0.1,0-0.1-0.1-0.2c-0.6-2.2-1.6-3.7-3-4.5 c-1.4-0.9-3.3-1.3-5.5-1.3c-0.1,0-0.2,0-0.3,0H3.9L3.9,7.9z M96,88.3c5.3,0,9.6,4.3,9.6,9.6c0,5.3-4.3,9.6-9.6,9.6 c-5.3,0-9.6-4.3-9.6-9.6C86.4,92.6,90.7,88.3,96,88.3L96,88.3z M53.9,88.3c5.3,0,9.6,4.3,9.6,9.6c0,5.3-4.3,9.6-9.6,9.6 c-5.3,0-9.6-4.3-9.6-9.6C44.3,92.6,48.6,88.3,53.9,88.3L53.9,88.3z M33.7,23.7l8.9,33.5h63.1l8.3-33.5H33.7L33.7,23.7z" />
+                                                    </g>
+                                                </svg>
+                                                <span class="number-cart">0</span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+        </header>
+        <!-- header end -->
+        <!-- banner -->
+        <div class="banner-wrapper">
+            <div class="banner-slider-wrapper">
+                <div class="banner-slider-inner">
+                    <div class="banner-bg-image banner-bg-image-top">
+                        <div class="container">
+                            <div class="slider-content-top">
+                                <p class="slider-celibration">Your Celebration Presents</p>
+                                <p class="slider-date">December 03rd 2018</p>
+                                <h1 class="slide-top-title"><span>Let's Have a Party!</span></h1>
+                                <p class="slide-desc">Planning a Wedding, Proposal, Corporate or Event in our busy city
+                                    is not so <span>easy, and it takes skills (and time) to make it all look easy-going
+                                    </span></p>
+                            </div>
+                            <div class="slider-btn slider-btn-top">
+                                <a href="#" class="btn-pink">Online Request </a>
+                                <a href="#" class="btn-white">More Gallery <svg width="24px" height="24px"
+                                        viewBox="0 0 24 24" id="_24x24_On_Light_Arrow-Right"
+                                        data-name="24x24/On Light/Arrow-Right" xmlns="http://www.w3.org/2000/svg">
+                                        <rect id="view-box" width="24" height="24" fill="none" />
+                                        <path id="Shape"
+                                            d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+                                            transform="translate(9.25 6.25)" fill="#141124" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-bg-image">
+                        <div class="container">
+                            <div class="slider-content">
+                                <h1>
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 352.752 352.752" style="enable-background:new 0 0 352.752 352.752;"
+                                        xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M317.778,79.1h-79.137c1.678-1.398,3.309-2.883,4.879-4.453c9.781-9.781,16.399-21.691,18.635-33.539 c2.432-12.889-0.504-24.262-8.266-32.023C247.948,3.141,239.815,0,230.37,0c-14.145,0-29.861,7.272-42.043,19.453 c-4.902,4.904-8.896,10.209-11.982,15.656c-3.125-5.557-7.131-10.865-11.922-15.656C152.241,7.273,136.524,0,122.38,0 c-9.445,0-17.578,3.143-23.521,9.084C83.386,24.56,87.942,53.359,109.229,74.646c1.572,1.572,3.209,3.053,4.889,4.453H34.974 c-17.149,0-31.1,13.951-31.1,31.1v8.1c0,17.148,13.951,31.1,31.1,31.1h4.574v172.254c0,17.148,13.951,31.1,31.1,31.1h211.453 c17.15,0,31.102-13.951,31.102-31.1V149.398h4.576c17.148,0,31.1-13.951,31.1-31.1v-8.1C348.878,93.051,334.927,79.1,317.778,79.1 z M198.935,30.06c9.43-9.43,21.182-15.06,31.436-15.06c3.752,0,9.037,0.814,12.914,4.691c4.148,4.148,5.615,10.766,4.131,18.635 c-1.682,8.912-6.832,18.043-14.502,25.713c-9.428,9.43-21.178,15.061-31.432,15.061c-3.754,0-9.039-0.814-12.916-4.691 C179.356,65.201,184.104,44.891,198.935,30.06z M119.837,64.039c-14.83-14.828-19.578-35.139-10.371-44.348 C113.343,15.814,118.628,15,122.38,15c10.254,0,22.006,5.631,31.437,15.06c7.668,7.668,12.818,16.799,14.5,25.713 c1.484,7.869,0.018,14.486-4.133,18.637c-3.875,3.875-9.162,4.689-12.914,4.689C141.017,79.1,129.267,73.471,119.837,64.039z M144.679,337.752H70.647c-8.877,0-16.1-7.223-16.1-16.1V149.398h90.131V337.752z M144.679,134.398H34.974 c-8.877,0-16.1-7.223-16.1-16.1v-8.1c0-8.877,7.223-16.1,16.1-16.1h109.705V134.398z M193.073,337.752h-33.395V94.1h33.395 V337.752z M298.202,321.652c0,8.877-7.223,16.1-16.102,16.1h-74.027V149.398h90.129V321.652z M333.878,118.299 c0,8.877-7.223,16.1-16.1,16.1H208.073V94.1h109.705c8.877,0,16.1,7.223,16.1,16.1V118.299z" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    We Plan The<p> Best<span> Events</span></p>
+                                </h1>
+                                <div class="play-btn">
+                                    <a href="#">
+                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;"
+                                            xml:space="preserve">
+                                            <path
+                                                d="M0.665,0v490l488.669-245L0.665,0z M15.977,24.806L455.183,245L15.977,465.208V24.806z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="slider-btn">
+                                    <a href="#" class="btn-pink">Get A Quote
+                                        <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                            id="_24x24_On_Light_Arrow-Right" data-name="24x24/On Light/Arrow-Right"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect id="view-box" width="24" height="24" fill="none" />
+                                            <path id="Shape"
+                                                d="M.22,10.22A.75.75,0,0,0,1.28,11.28l5-5a.75.75,0,0,0,0-1.061l-5-5A.75.75,0,0,0,.22,1.28l4.47,4.47Z"
+                                                transform="translate(9.25 6.25)" fill="#141124" />
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="btn-white">About Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner end -->
+        <!-- about  -->
+        <div class="about-wrapper">
+            <div class="container">
+                <div class="about-main">
+                    <div class="about-left">
+                        <img src="./assets/image/about-2.png" alt="about">
+                    </div>
+                    <div class="about-rigth">
+                        <h2>About Our Planwey</h2>
+                        <p class="about-bold"><strong> With our passion, knowledge, creative flair and inspiration, we
+                                are dedicated in helping you to achieve your dream wedding day or special event within
+                                your budget.</strong></p>
+                        <p class="about-desc">Our wedding planning and events coordination services are designed for Any
+                            Sized budget, meaning anyone. Our wedding planning and events coordination services are
+                            designed.</p>
+                        <div class="about-couner">
+                            <div class="couner-item">
+                                <h2><span class="counter" data-speed="2000">50</span>k</h2>
+                                <p>Customers</p>
+                            </div>
+                            <div class="couner-item">
+                                <h2><span class="counter" data-speed="2000">15</span>k</h2>
+                                <p>Experience</p>
+                            </div>
+                            <div class="couner-item">
+                                <h2><span class="counter" data-speed="2000">70</span>k</h2>
+                                <p>Project Done</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about end -->
+        <!-- service  -->
+        <div class="about-wrapper service-banner">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+            <div class="container">
+                <div class="service-inner">
+                    <div class="section-title">
+                        <h4>WHAT WE OFFER</h4>
+                        <h2 class="title">Provide Best Services</h2>
+                        <div class="title-img">
+                            <img src="./assets/image/ds-2.png" alt="underline-img">
+                        </div>
+                    </div>
+                    <ul class="service-content">
+                        <li>
+                            <img src="./assets/image/blog-01.jpg" alt="blog">
+                            <div class="blog-title">
+                                <a href="#">Wedding</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/image/blog-02.jpg" alt="blog">
+                            <div class="blog-title">
+                                <a href="#">Private Party</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/image/blog-03.jpg" alt="blog">
+                            <div class="blog-title">
+                                <a href="#">Corporate Party</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- service end -->
+        <!-- our service -->
+        <div class="our-service-wrapper">
+            <div class="our-service-bg">
+                <div class="container">
+                    <div class="service-main">
+                        <div class="our-left">
+                            <img src="./assets/image/col-bgimage-3.jpg" alt="bgimage">
+                        </div>
+                        <div class="our-right">
+                            <div class="our-service-inner">
+                                <div class="section-title with-desc clearfix">
+                                    <div class="title-header">
+                                        <h4>WHAT WE DO</h4>
+                                        <h2 class="title">Get Premium Our Services</h2>
+                                    </div>
+                                    <p>We have a huge range of suppliers and contacts in the industry that work closely
+                                        with
+                                        us
+                                        to not only ensure you get the wedding day.</p>
+                                </div>
+                                <div class="service-decor-main">
+                                    <div class="sercicedeocr-inner">
+                                        <div class="decor-left">
+                                            <div class="decor-img"><i class="fa-thin fa-cake-candles"></i></div>
+                                            <div class="decor-content">
+                                                <div class="featured-title">
+                                                    <h5>Catering &amp; Decor</h5>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typendard nknown.</p>
+                                                </div>
+                                                <a class="btn-arrow" href="#">View More<i class="fa-light fa-angles-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="decor-left">
+                                            <div class="decor-img"><i class="fa-light fa-map-location-dot"></i></div>
+                                            <div class="decor-content">
+                                                <div class="featured-title">
+                                                    <h5>Catering &amp; Decor</h5>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typendard nknown.</p>
+                                                </div>
+                                                <a class="btn-arrow" href="#">View More<i class="fa-light fa-angles-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our service end -->
+        <!-- time -->
+        <div class="time-wrapper">
+            <div class="container">
+                <div class="time-main">
+                    <div class="time-left">
+                        <h2>Our Upcoming Events:</h2>
+                    </div>
+                    <div class="time-right">
+                        <div id="clockdiv">
+                            <div class="clock-item">
+                              <span class="days" id="day"></span>
+                              <div class="smalltext">Days</div>
+                            </div>
+                            <div class="clock-item">
+                              <span class="hours" id="hour"></span>
+                              <div class="smalltext">Hours</div>
+                            </div>
+                            <div class="clock-item">
+                              <span class="minutes" id="minute"></span>
+                              <div class="smalltext">Minutes</div>
+                            </div>
+                            <div class="clock-item">
+                              <span class="seconds" id="second"></span>
+                              <div class="smalltext">Seconds</div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- time end -->
+        <!-- our event -->
+        <div class="about-wrapper our-vent">
+            <div class="container">
+                <div class="event-inner">
+                    <div class="section-title">
+                        <h4>LATEST</h4>
+                        <h2 class="title">Our Events</h2>
+                        <div class="title-img">
+                            <img src="./assets/image/ds-1.png" alt="underline-img">
+                        </div>
+                    </div>
+                    <div class="event-slider">
+                        <div class="event-slider-main">
+                            <div class="event-items">
+                                <div class="event-image">
+                                    <img src="./assets/image/event-img5.jpg" alt="event">
+                                </div>
+                                <div class="event-date">
+                                    <time class="entry-time">12<span>aug</span></time>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5><a href="#">Techohub 2019</a></h5>
+                                        <span class="ttm-price">Tickets from $46</span>
+                                    </div>
+                                    <div class="ttm-box-meta">
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-regular fa-clock"></i> 9:00 am - 4:00 pm  
+                                        </div>
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-light fa-location-dot"></i> Manhamman, New Yok 
+                                        </div>
+                                    </div>
+                                    <a class="btn-blue" href="#" title="">Ticket &amp; Details</a>
+                                </div>
+                            </div>
+                            <div class="event-items">
+                                <div class="event-image">
+                                    <img src="./assets/image/event-img3.jpg" alt="event">
+                                </div>
+                                <div class="event-date">
+                                    <time class="entry-time">12<span>aug</span></time>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5><a href="#">Techohub 2019</a></h5>
+                                        <span class="ttm-price">Tickets from $46</span>
+                                    </div>
+                                    <div class="ttm-box-meta">
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-regular fa-clock"></i> 9:00 am - 4:00 pm  
+                                        </div>
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-light fa-location-dot"></i> Manhamman, New Yok 
+                                        </div>
+                                    </div>
+                                    <a class="btn-blue" href="#" title="">Ticket &amp; Details</a>
+                                </div>
+                            </div>
+                            <div class="event-items">
+                                <div class="event-image">
+                                    <img src="./assets/image/event-img4.jpg" alt="event">
+                                </div>
+                                <div class="event-date">
+                                    <time class="entry-time">12<span>aug</span></time>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5><a href="#">Techohub 2019</a></h5>
+                                        <span class="ttm-price">Tickets from $46</span>
+                                    </div>
+                                    <div class="ttm-box-meta">
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-regular fa-clock"></i> 9:00 am - 4:00 pm  
+                                        </div>
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-light fa-location-dot"></i> Manhamman, New Yok 
+                                        </div>
+                                    </div>
+                                    <a class="btn-blue" href="#" title="">Ticket &amp; Details</a>
+                                </div>
+                            </div>
+                            <div class="event-items">
+                                <div class="event-image">
+                                    <img src="./assets/image/event-img5.jpg" alt="event">
+                                </div>
+                                <div class="event-date">
+                                    <time class="entry-time">12<span>aug</span></time>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5><a href="#">Techohub 2019</a></h5>
+                                        <span class="ttm-price">Tickets from $46</span>
+                                    </div>
+                                    <div class="ttm-box-meta">
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-regular fa-clock"></i> 9:00 am - 4:00 pm  
+                                        </div>
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-light fa-location-dot"></i> Manhamman, New Yok 
+                                        </div>
+                                    </div>
+                                    <a class="btn-blue" href="#" title="">Ticket &amp; Details</a>
+                                </div>
+                            </div>
+                            <div class="event-items">
+                                <div class="event-image">
+                                    <img src="./assets/image/event-img5.jpg" alt="event">
+                                </div>
+                                <div class="event-date">
+                                    <time class="entry-time">12<span>aug</span></time>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5><a href="#">Techohub 2019</a></h5>
+                                        <span class="ttm-price">Tickets from $46</span>
+                                    </div>
+                                    <div class="ttm-box-meta">
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-regular fa-clock"></i> 9:00 am - 4:00 pm  
+                                        </div>
+                                        <div class="tribe-events-city"> 
+                                            <i class="fa-light fa-location-dot"></i> Manhamman, New Yok 
+                                        </div>
+                                    </div>
+                                    <a class="btn-blue" href="#" title="">Ticket &amp; Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our event end -->
+        <!-- gallery -->
+        <div class="gallery-wrapper">
+            <div class="gallery-banner">
+                <div class="container">
+                    <div class="section-title gallery-title">
+                        <h4>SEE OUR BEST</h4>
+                        <h2 class="title">Photo Gallery</h2>
+                        <div class="title-img">
+                            <img src="./assets/image/ds-2.png" alt="underline-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-image">
+                <div class="container">
+                    <ul class="gallery-inner">
+                        <li>
+                            <div class="gallery-hover">
+                                <div class="gallery-img">
+                                    <a href="#">
+                                        <img src="./assets/image/gallery-1.jpg" alt="gallery">
+                                    </a>
+                                </div>
+                                <div class="gallery-content">
+                                    <div class="gallery-search">
+                                        <a href="./assets/image/gallery-1.jpg" data-caption="Gallery" class="open-lightbox"><i class="fa-light fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <div class="gallery-desc">
+                                        <h5><a href="#">Autue Art Gallery Opening</a></h5>
+                                        <p><a href="private-party.html">Private Party</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-hover">
+                                <div class="gallery-img">
+                                    <a href="#">
+                                        <img src="./assets/image/gallery-5.jpg" alt="gallery">
+                                    </a>
+                                </div>
+                                <div class="gallery-content">
+                                    <div class="gallery-search">
+                                        <a href="./assets/image/gallery-5.jpg" data-caption="Gallery" class="open-lightbox"><i class="fa-light fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <div class="gallery-desc">
+                                        <h5><a href="#">Autue Art Gallery Opening</a></h5>
+                                        <p><a href="private-party.html">Private Party</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-hover">
+                                <div class="gallery-img">
+                                    <a href="#">
+                                        <img src="./assets/image/gallery-2.jpg" alt="gallery">
+                                    </a>
+                                </div>
+                                <div class="gallery-content">
+                                    <div class="gallery-search">
+                                        <a href="./assets/image/gallery-2.jpg" data-caption="Gallery" class="open-lightbox"><i class="fa-light fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <div class="gallery-desc">
+                                        <h5><a href="#">Autue Art Gallery Opening</a></h5>
+                                        <p><a href="private-party.html">Private Party</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-hover">
+                                <div class="gallery-img">
+                                    <a href="#">
+                                        <img src="./assets/image/gallery-3.jpg" alt="gallery">
+                                    </a>
+                                </div>
+                                <div class="gallery-content">
+                                    <div class="gallery-search">
+                                        <a href="./assets/image/gallery-3.jpg" data-caption="Gallery" class="open-lightbox"><i class="fa-light fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <div class="gallery-desc">
+                                        <h5><a href="#">Autue Art Gallery Opening</a></h5>
+                                        <p><a href="private-party.html">Private Party</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-hover">
+                                <div class="gallery-img">
+                                    <a href="#">
+                                        <img src="./assets/image/gallery-4.jpg" alt="gallery">
+                                    </a>
+                                </div>
+                                <div class="gallery-content">
+                                    <div class="gallery-search">
+                                        <a href="./assets/image/gallery-4.jpg" data-caption="Gallery" class="open-lightbox"><i class="fa-light fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <div class="gallery-desc">
+                                        <h5><a href="#">Autue Art Gallery Opening</a></h5>
+                                        <p><a href="private-party.html">Private Party</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-hover">
+                                <div class="gallery-img">
+                                    <a href="#">
+                                        <img src="./assets/image/gallery-8.jpg" alt="gallery">
+                                    </a>
+                                </div>
+                                <div class="gallery-content">
+                                    <div class="gallery-search">
+                                        <a href="./assets/image/gallery-8.jpg" data-caption="Gallery" class="open-lightbox"><i class="fa-light fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <div class="gallery-desc">
+                                        <h5><a href="#">Autue Art Gallery Opening</a></h5>
+                                        <p><a href="private-party.html">Private Party</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="gallery-btn">
+                        <a href="#">View More Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery end-->
+        <!-- client -->
+        <div class="our-service-wrapper">
+            <div class="our-service-bg">
+                <div class="container">
+                    <div class="service-main client-inner">
+                        <div class="our-left">
+                            <img src="./assets/image/col-bgimage-4.jpg" alt="bgimage">
+                        </div>
+                        <div class="our-right">
+                            <div class="our-service-inner">
+                                <div class="client-title">
+                                    <h4>TESTIMONAL</h4>
+                                    <h2 class="title ttm-textcolor-white">Clients feedback</h2>
+                                </div>
+                                <div class="client-slider">
+                                    <div class="client-item">
+                                        <div class="testimonial-avatar">
+                                            <img class="img-center" src="./assets/image/feedback2.jpg" alt="testimonial-img">
+                                        </div>
+                                        <div class="testimonial-caption">
+                                            <h6>Tonny Edward</h6>
+                                            <p>Newyork City</p>
+                                        </div>
+                                        <div class="testimonial-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloret quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</div>
+                                    </div>
+                                    <div class="client-item">
+                                        <div class="testimonial-avatar">
+                                            <img class="img-center" src="./assets/image/feedback2.jpg" alt="testimonial-img">
+                                        </div>
+                                        <div class="testimonial-caption">
+                                            <h6>Tonny Edward</h6>
+                                            <p>Newyork City</p>
+                                        </div>
+                                        <div class="testimonial-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloret quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</div>
+                                    </div>
+                                    <div class="client-item">
+                                        <div class="testimonial-avatar">
+                                            <img class="img-center" src="./assets/image/feedback2.jpg" alt="testimonial-img">
+                                        </div>
+                                        <div class="testimonial-caption">
+                                            <h6>Tonny Edward</h6>
+                                            <p>Newyork City</p>
+                                        </div>
+                                        <div class="testimonial-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloret quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- client end -->
+         <!-- our blog -->
+         <div class="about-wrapper our-vent our-blog">
+            <div class="container">
+                <div class="event-inner">
+                    <div class="section-title">
+                        <h4>WORKING WITH EXCELLENT</h4>
+                        <h2 class="title">Our Latest News/ Blog</h2>
+                        <div class="title-img">
+                            <img src="./assets/image/ds-1.png" alt="underline-img">
+                        </div>
+                    </div>
+                    <div class="blog-wrapper">
+                        <div class="blog-left">
+                            <div class="blog-main">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="./assets/image/blog1.jpg" alt="blog1">
+                                    </a>
+                                </div>
+                                <div class="blog-desc">
+                                    <div class="blog-dt">
+                                        <p class="entry-time">12<span>aug</span></p>
+                                        <h5><a href="#">Best Kids’ Birthday Party Ideas</a></h5>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typendard nknown printet to make a type specimen book.</p>
+                                        <a class="btn-blue btn-blog" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-main">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="./assets/image/blog1.jpg" alt="blog1">
+                                    </a>
+                                </div>
+                                <div class="blog-desc">
+                                    <div class="blog-dt">
+                                        <p class="entry-time">12<span>aug</span></p>
+                                        <h5><a href="#">Best Kids’ Birthday Party Ideas</a></h5>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typendard nknown printet to make a type specimen book.</p>
+                                        <a class="btn-blue btn-blog" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-right">
+                            <div class="blog-main">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="./assets/image/blog1.jpg" alt="blog1">
+                                    </a>
+                                </div>
+                                <div class="blog-desc">
+                                    <div class="blog-dt">
+                                        <p class="entry-time">12<span>aug</span></p>
+                                        <h5><a href="#">Best Kids’ Birthday Party Ideas</a></h5>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typendard nknown printet to make a type specimen book Lorem Ipsum is simply dummy tex.</p>
+                                        <a class="btn-blue btn-blog" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our blog end -->
+        <!-- footer -->
+        <footer>
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="footer-main">
+                        <div class="ttm-newstter-box">
+                            <h4>Subscribe to <span class="news-title">Our Newsletter</span></h4>
+                            <p>No spam message from us, only give you latest offer which is best for you and your business</p>
+                            <form class="news-letter" method="post" data-id="24" data-name="Newsletter Form">
+                                <div class="form-group">
+                                    <input type="email" name="EMAIL" placeholder="Your email address.." required="">
+                                    <input type="submit" value="Subscribe Now">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="footer-links">
+                            <ul class="links-main">
+                                <li class="footer-list">
+                                    <div class="link-title">
+                                        <h5>Contact Us</h5>
+                                    </div>
+                                    <ul class="widget-contact">
+                                        <li class="footer-contact"><i class="fa-light fa-location-dot"></i><div>Themeforest, Envanto HQ<br>24 Fifth st., Los Angeles, USA</div></li>
+                                        <li><i class="fa-light fa-envelope"></i><a href="mailto:info@example.com">info@example.com</a></li>
+                                        <li class="footer-contact">
+                                            <i class="fa-light fa-phone"></i>
+                                            <div>
+                                                <a href="tel:(+01) 123 456 7890"> Phone: (+01) 123 456 7890</a> <br><a href="tel:(+01) 123 456 7890 "> Support: (+01) 123 456 7890 </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer-list">
+                                    <div class="link-title">
+                                        <h5>Our Services</h5>
+                                    </div>
+                                    <ul class="menu-footer-services">
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">Our Gallery</a></li>
+                                        <li><a href="#">Event Guides</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Latest News</a></li>
+                                        <li><a href="#">Pricing &amp; Terms</a></li>
+                                    </ul>
+                                </li>
+                                <li class="footer-list">
+                                    <div class="link-title">
+                                        <h5>Recent Posts</h5>
+                                    </div>
+                                    <ul class="widget-post ttm-recent-post-list">
+                                        <li>
+                                            <a href="#" class="blog-img-footer"><img src="./assets/image/blog7.jpg" alt="post-img"></a>
+                                            <div>
+                                                <a href="single-blog.html">Our Biggest Summer Meetup</a>
+                                                <span class="post-date clearfix">August 1, 2018</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="blog-img-footer"><img src="./assets/image/blog3.jpg" alt="post-img"></a>
+                                            <div>
+                                                <a href="single-blog.html">5 Steps To Planning A Sweet Party</a>
+                                                <span class="post-date clearfix">August 1, 2018</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer-list">
+                                    <div class="link-title">
+                                        <h5>Frequent Questions</h5>
+                                    </div>
+                                    <ul class="menu-footer-services">
+                                        <li><a href="#">How Can I Set An Event? </a></li>
+                                        <li><a href="#">What Venues Do You Use? </a></li>
+                                        <li><a href="#">Event Catalogue </a></li>
+                                        <li><a href="#">Shipping &amp; Delivery </a></li>
+                                        <li><a href="#">What's your dream job? </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-copyright">
+                            <div class="footer-left">
+                                <div class="footer-logo">
+                                    <img src="./assets/image/logo-img.png" alt="logo">
+                                </div>
+                                <p class="footer-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesue corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culp.</p>
+                            </div>
+                            <div class="footer-copy">
+                                <ul class="social-icons">
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                                <p>Copyright © 2018 PresentUp. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
+    <script src="./assets/js/custom-script.js"></script>
+    <script>
+        
+        if($('.gallery-inner').length>0) {
+            $('.gallery-inner').slickLightbox({
+                itemSelector: 'a.open-lightbox',
+                caption: 'caption',
+                navigateByKeyboard: true,
+                layouts: {
+                    closeButton: '<button class="btn close"><i class="fas fa-times"></i></button>'
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

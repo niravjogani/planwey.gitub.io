@@ -1577,6 +1577,8 @@ i {
         left: 0;
         top: 100px;
         padding: 0 15px;
+        z-index: 5;
+        background-color: #fff;
         box-shadow: rgb(0 0 0 / 12%) 3px 3px 15px;
     } 
     .navbar-dropdown .dropdown {

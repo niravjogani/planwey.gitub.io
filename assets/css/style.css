@@ -54,7 +54,29 @@ img {
     max-width: 100%;
     display: block;
 }
-
+#totop{
+    font-weight: 900;
+    color: #fff;
+    display: none;
+    position: fixed;
+    right: 34px;
+    bottom: 34px;
+    z-index: 999;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    text-align: center;
+    padding-top: 3px;
+    line-height: 37px;
+    background-color: #fd226a;
+    border-radius: 3px;
+}
+#totop.top-visible {
+    height: 45px;
+    width: 45px;
+    font-size: 22px;
+    display: inline;
+}
 .container {
     max-width: 1170px;
     width: 100%;
@@ -914,11 +936,16 @@ i {
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
     font-size: 30px;
+    cursor: pointer;
     font-weight: 400;
     display: flex;
     justify-content: center;
+    transition: all .5s;
     align-items: center;
     transform: translate(0, -50%);
+}
+.slick-prev-arrow:hover, .slick-next-arrow:hover{
+    background-color: #fd226a;
 }
 .slick-prev-arrow{
     right: -27px;

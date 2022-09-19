@@ -115,7 +115,7 @@ jQuery( ".ttm-header-search-link a" ).addClass('sclose');
         });
 
        // timer
-          var endDate = "sep 31, 2022 00:00:00";
+          var endDate = "octo 31, 2022 00:00:00";
 
           /* ***** Do not change this code below. ***** */
           var deadline = new Date(endDate).getTime();
@@ -134,7 +134,6 @@ jQuery( ".ttm-header-search-link a" ).addClass('sclose');
 
             if (t < 0) {
               clearInterval(x);
-              document.getElementById("demo").innerHTML = "COUNTDOWN FINISHED";
               document.getElementById("day").innerHTML = "0";
               document.getElementById("hour").innerHTML = "0";
               document.getElementById("minute").innerHTML = "0";
@@ -181,6 +180,25 @@ jQuery( ".ttm-header-search-link a" ).addClass('sclose');
             infinite: true,
             arrows: false,
             dots: false,
+        });
+
+        // ===== Scroll to Top ==== 
+        jQuery('#totop').hide();
+        jQuery(window).scroll(function() {
+            "use strict";
+            if (jQuery(this).scrollTop() >= 100) {        // If page is scrolled more than 50px
+                jQuery('#totop').fadeIn(200);    // Fade in the arrow
+                jQuery('#totop').addClass('top-visible');
+            } else {
+                jQuery('#totop').fadeOut(200);   // Else fade out the arrow
+                jQuery('#totop').removeClass('top-visible');
+            }
+        });
+        jQuery('#totop').on( "click", function() {      // When arrow is clicked
+            jQuery('body,html').animate({
+                scrollTop : 0                       // Scroll to top of body
+            }, 500);
+            return false;
         });
 
 });

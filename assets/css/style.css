@@ -1775,7 +1775,7 @@ i {
         flex-wrap: wrap;
     }
     .links-main .footer-list {
-        padding: 0 15px 0;
+        padding: 0 0 15px;
         width: 50%;
     }
     .news-letter .form-group input[type="email"] {
